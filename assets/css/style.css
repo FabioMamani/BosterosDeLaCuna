@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.navbar {
+    max-width: 100%;
+    height: 100px;
+    background-color: #14213d;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-item1,
+.navbar-item2 {
+    width: 320px;
+    height: 100px;
+    text-align: center;
+    background-color: #fca311;
+}
+
+#contain-main {
+    max-width: 100%;
+    height: 100vh;
+    background-color: palevioletred;
+    display: grid;
+    grid-template-areas: "titular" "carrusel" "carrusel" "carrusel" "buttonmain";
+}
+
+.contain-titular {
+    grid-area: titular;
+    background-color: peru;
+    text-align: center;
+}
+
+.contain-carrusel {
+    grid-area: carrusel;
+    background-color: purple;
+    text-align: center;
+}
+
+.button-main {
+    grid-area: buttonmain;
+    background-color: palegreen;
+    text-align: center;
+}
