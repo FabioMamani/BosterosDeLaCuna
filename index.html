@@ -6,19 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--FRAMEWORK CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar">
+    <!--<nav class="navbar">
         <div class="navbar-item1">LOGO</div>
         <div class="navbar-item2">ITEMS DE MENU</div>
 
+    </nav>-->
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bosteros de la Cuna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu Bostero</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
     </nav>
 
-    <section id="contain-main" class="main-contain">
 
+    <section id="contain-main" class="main-contain">
     </section>
+
+    <div class="titular-dos">
+        <a href="https://www.fontspace.com/category/brush"><img src="https://see.fontimg.com/api/renderfont4/K7wX7/eyJyIjoiZnMiLCJoIjo0OCwidyI6MTAwMCwiZnMiOjQ4LCJmZ2MiOiIjRUZGNjMwIiwiYmdjIjoiIzM1MzUyMyIsInQiOjF9/YWN0aXZpZGFkZXM/better-faster-italic.png" alt="Brush fonts"></a>
+    </div>
 
     <section id="contain-second" class="contain-second">
 
@@ -30,11 +67,12 @@
 
     <section class="contain-events">
         <div class="titular-event">
-            <h2>Proximos eventos</h2>
+            <a href="https://www.fontspace.com/category/brush"><img src="https://see.fontimg.com/api/renderfont4/K7wX7/eyJyIjoiZnMiLCJoIjo0OCwidyI6MTAwMCwiZnMiOjQ4LCJmZ2MiOiIjRUZGNjMwIiwiYmdjIjoiIzM1MzUyMyIsInQiOjF9/cHLDs3hpbW8gZXZlbnRv/better-faster-italic.png" alt="Brush fonts"></a>
         </div>
         <div class="event-one">
             <div class="text-event">CONTENIDO 1</div>
-            <div class="button-event">BUTTON</div>
+            <div class="button-event">BUTTON
+            </div>
         </div>
         <div class="event-second">
             <div class="text-event">CONTENIDO 2</div>
@@ -46,26 +84,8 @@
         INSTITUCIONAL
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="./assets/js/index.js"></script>
 </body>
 

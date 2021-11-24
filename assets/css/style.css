@@ -37,13 +37,15 @@ body {
     height: 100vh;
     background-color: palevioletred;
     display: grid;
-    grid-template-areas: "titular" "carrusel" "carrusel" "carrusel" "buttonmain";
+    grid-template-areas: "titular" "titular" "titular" "carrusel" "carrusel" "carrusel" "buttonmain";
 }
 
 .contain-titular {
     grid-area: titular;
-    background-color: peru;
-    text-align: center;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contain-carrusel {
@@ -60,6 +62,14 @@ body {
 
 
 /*### CONTENIDO PAGE ###*/
+
+.titular-dos {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
 
 .contain-second {
     max-width: 100%;
@@ -94,7 +104,7 @@ body {
 }
 
 .titular-event {
-    background-color: palegreen;
+    background-color: var(--main-bg-color);
     text-align: center;
 }
 
