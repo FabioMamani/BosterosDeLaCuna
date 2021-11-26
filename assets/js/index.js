@@ -1,15 +1,41 @@
 const mainContain = document.getElementById('contain-main');
-const containTitular = document.createElement('div')
-containTitular.classList.add('contain-titular');
-containTitular.innerHTML = `<a href="https://www.fontspace.com/category/brush"><img src="https://see.fontimg.com/api/renderfont4/MVmoY/eyJyIjoiZnMiLCJoIjo3MiwidyI6MTAwMCwiZnMiOjcyLCJmZ2MiOiIjRUZGNjMwIiwiYmdjIjoiIzM1MzUyMyIsInQiOjF9/RGUgYm9jYSBubyBzZSBoYWNlLCBzZSBuYWNlLi4u/better-faster-regular.png" alt="Brush fonts"></a>`;
+//const containTitular = document.createElement('div')
+//containTitular.classList.add('contain-titular');
+//containTitular.innerHTML = `<a href="https://www.fontspace.com/category/brush"><img src="https://see.fontimg.com/api/renderfont4/MVmoY/eyJyIjoiZnMiLCJoIjo3MiwidyI6MTAwMCwiZnMiOjcyLCJmZ2MiOiIjRUZGNjMwIiwiYmdjIjoiIzM1MzUyMyIsInQiOjF9/RGUgYm9jYSBubyBzZSBoYWNlLCBzZSBuYWNlLi4u/better-faster-regular.png" alt="Brush fonts"></a>`;
 const containCarrusel = document.createElement('div')
 containCarrusel.classList.add('contain-carrusel');
-containCarrusel.innerHTML = `<h2>Carrusel de imagenes</h2>`;
+containCarrusel.innerHTML = `
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="./assets/img/boca1.jpg" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="./assets/img/boca2.jpg" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="./assets/img/boca3.jpg" class="d-block w-100" alt="...">
+  </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>`;
 const buttonMain = document.createElement('div')
 buttonMain.classList.add('button-main');
-buttonMain.innerHTML = `<h3>Button</h3>`
+buttonMain.innerHTML = `<button>Hacer click</button>`
 
-mainContain.appendChild(containTitular)
+//mainContain.appendChild(containTitular)
 mainContain.appendChild(containCarrusel)
 mainContain.appendChild(buttonMain)
 
