@@ -14,6 +14,22 @@ body {
     background-color: #f1f1f1;
 }
 
+button {
+    background: var(--second-bg-color);
+    color: #f1f1f1;
+    font-size: 1em !important;
+    font-family: inherit;
+    border: 0;
+    padding: .5em 1.5em;
+    border-radius: 1.5em !important;
+}
+
+p {
+    text-align: justify;
+    font-size: 1em;
+    color: #ffff;
+}
+
 .navbar {
     background-color: var(--main-bg-color);
     color: #ffff;
@@ -35,9 +51,9 @@ body {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
 }
 
 .navbar-toggler span {
@@ -101,7 +117,7 @@ body {
 #contain-main {
     max-width: 100%;
     height: 100vh;
-    background-color: palevioletred;
+    background-color: var(--main-bg-color);
     display: flex;
     flex-direction: column;
 }
@@ -132,8 +148,10 @@ body {
 .button-main {
     width: 100%;
     height: 200px;
-    background-color: palegreen;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -149,19 +167,53 @@ body {
 
 .contain-second {
     max-width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #14213d;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 600px));
     /*grid-template-columns: repeat(2, 500px);*/
     gap: 16px;
     justify-content: center;
 }
 
 .contain-second div {
-    background-color: #fca311;
+    background-color: lightskyblue;
     width: auto;
-    height: auto;
+    height: 300px;
+}
+
+.contain-card {
+    width: 100%;
+    height: 300px;
+    background: url(/assets/img/futbolmasc.jpg);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.contain-card2 {
+    width: 100%;
+    height: 300px;
+    background: url(/assets/img/futbolfemeninoboca.jpg);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.contain-card3 {
+    width: 100%;
+    height: 300px;
+    background: url(/assets/img/reservafutbolbocajuniors.jpg);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.contain-text,
+.contain-text2,
+.contain-text3 {
+    text-align: left;
+    padding: 20px;
 }
 
 .contain-copas {

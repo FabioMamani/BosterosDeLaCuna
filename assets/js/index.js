@@ -33,7 +33,7 @@ containCarrusel.innerHTML = `
 </div>`;
 const buttonMain = document.createElement('div')
 buttonMain.classList.add('button-main');
-buttonMain.innerHTML = `<button>Hacer click</button>`
+buttonMain.innerHTML = `<button>Ver mas</button>`
 
 //mainContain.appendChild(containTitular)
 mainContain.appendChild(containCarrusel)
@@ -45,16 +45,34 @@ const containCard = document.createElement('div')
 containCard.classList.add('contain-card');
 const containText = document.createElement('div')
 containText.classList.add('contain-text');
+containText.innerHTML = `<h3>Primera división Masculino</h3>
+<p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
+    , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
+    copas internacionales.
+</p>
+<button type="button" >Seguir leyendo</button>`
 
 const containCard2 = document.createElement('div')
 containCard2.classList.add('contain-card2');
 const containText2 = document.createElement('div')
 containText2.classList.add('contain-text2');
+containText2.innerHTML = `<h3>Primera división Femenino</h3>
+<p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
+    , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
+    copas internacionales.
+</p>
+<button type="button" >Seguir leyendo</button>`
 
 const containCard3 = document.createElement('div')
 containCard3.classList.add('contain-card3');
 const containText3 = document.createElement('div')
 containText3.classList.add('contain-text3');
+containText3.innerHTML = `<h3>Reserva</h3>
+<p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
+    , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
+    copas internacionales.
+</p>
+<button type="button" >Seguir leyendo</button>`
 
 
 containSecond.appendChild(containCard)
