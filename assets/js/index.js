@@ -43,36 +43,42 @@ mainContain.appendChild(buttonMain)
 const containSecond = document.querySelector('.contain-second');
 const containCard = document.createElement('div')
 containCard.classList.add('contain-card');
+containCard.setAttribute('data-aos', 'fade-right')
 const containText = document.createElement('div')
 containText.classList.add('contain-text');
-containText.innerHTML = `<h3>Primera división Masculino</h3>
+containText.setAttribute('data-aos', 'fade-up')
+containText.innerHTML = `<h2>Primera división Masculino</h2>
 <p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
     , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
     copas internacionales.
 </p>
-<button type="button" >Seguir leyendo</button>`
+<button class= button-text type="button" >Seguir leyendo</button>`
 
 const containCard2 = document.createElement('div')
 containCard2.classList.add('contain-card2');
+containCard2.setAttribute('data-aos', 'fade-right')
 const containText2 = document.createElement('div')
 containText2.classList.add('contain-text2');
-containText2.innerHTML = `<h3>Primera división Femenino</h3>
+containText2.setAttribute('data-aos', 'fade-up')
+containText2.innerHTML = `<h2>Primera división Femenino</h2>
 <p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
     , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
     copas internacionales.
 </p>
-<button type="button" >Seguir leyendo</button>`
+<button class= button-text type="button" >Seguir leyendo</button>`
 
 const containCard3 = document.createElement('div')
 containCard3.classList.add('contain-card3');
+containCard3.setAttribute('data-aos', 'fade-right')
 const containText3 = document.createElement('div')
 containText3.classList.add('contain-text3');
-containText3.innerHTML = `<h3>Reserva</h3>
+containText3.setAttribute('data-aos', 'fade-up')
+containText3.innerHTML = `<h2>Reserva</h2>
 <p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
     , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
     copas internacionales.
 </p>
-<button type="button" >Seguir leyendo</button>`
+<button class= button-text type="button" >Seguir leyendo</button>`
 
 
 containSecond.appendChild(containCard)

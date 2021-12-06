@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
 :root {
     --main-bg-color: #14213d;
     --second-bg-color: #fca311;
     --button-bg-color: #fca311;
+    --paragraph-bg-color: #ffff;
 }
 
 body {
@@ -25,9 +30,15 @@ button {
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
     font-size: 1em;
-    color: #ffff;
+    color: var(--paragraph-bg-color);
+}
+
+h2 {
+    color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -172,12 +183,12 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 600px));
     /*grid-template-columns: repeat(2, 500px);*/
-    gap: 16px;
+    gap: 60px;
     justify-content: center;
 }
 
 .contain-second div {
-    background-color: lightskyblue;
+    /*background-color: lightskyblue;*/
     width: auto;
     height: 300px;
 }
@@ -214,6 +225,10 @@ p {
 .contain-text3 {
     text-align: left;
     padding: 20px;
+}
+
+.button-text {
+    margin-top: 36px;
 }
 
 .contain-copas {
