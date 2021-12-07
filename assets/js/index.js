@@ -92,4 +92,13 @@ const containCopas = document.querySelector('.contain-copas');
 const titularCopas = document.createElement('div')
 titularCopas.classList.add('titular-copas')
 titularCopas.innerHTML = `<a href="https://www.fontspace.com/category/brush"><img src="https://see.fontimg.com/api/renderfont4/K7wX7/eyJyIjoiZnMiLCJoIjo0OCwidyI6MTAwMCwiZnMiOjQ4LCJmZ2MiOiIjRUZGNjMwIiwiYmdjIjoiIzM1MzUyMyIsInQiOjF9/bnVlc3RyYXMgY29wYXM/better-faster-italic.png" alt="Brush fonts"></a>`;
+const copaImg = document.createElement('div')
+copaImg.classList.add('contain-img-copa')
+copaImg.setAttribute('data-aos', 'fade-up')
+copaImg.innerHTML = `<img src="./assets/img/copas.png" alt="" ></img>`
+const buttonCopas = document.createElement('div')
+buttonCopas.classList.add('button-copas')
+buttonCopas.innerHTML = `<button type="button">Ver títulos</button>`
 containCopas.appendChild(titularCopas)
+containCopas.appendChild(copaImg)
+containCopas.appendChild(buttonCopas)
