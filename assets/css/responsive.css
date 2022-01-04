@@ -1,0 +1,26 @@
+/*############ RESPONSIVE WEB DESIGN ##########*/
+
+@media screen and (min-width: 320px) and (max-width:720px) {
+    .contain-icon img {
+        max-width: 100%;
+    }
+    .redes-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .redes-content p {
+        text-align: center;
+    }
+    .redes-content ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .dev-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}

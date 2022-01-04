@@ -23,6 +23,7 @@
         background: var(--second-bg-color);
         color: #f1f1f1;
         font-size: 1em !important;
+        font-weight: 600;
         font-family: inherit;
         border: 0;
         padding: .5em 1.5em;
@@ -143,6 +144,10 @@
         align-items: center;
     }
     
+    .titular-main a img {
+        max-width: 100%;
+    }
+    
     .contain-carrusel {
         width: 100%;
         height: 500px;
@@ -240,9 +245,19 @@
         grid-template-columns: 1fr;
     }
     
+    .contain-img-copa img {
+        max-width: 100%;
+    }
+    
     .titular-copas {
+        display: flex;
+        justify-content: center;
         background-color: var(--main-bg-color);
         padding: 38px;
+    }
+    
+    .titular-copas a img {
+        max-width: 100%;
     }
     
     .contain-events {
@@ -260,7 +275,8 @@
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.18) !important;
         transition: 0.5s ease-in-out;
     }
-    .cards:hover{
+    
+    .cards:hover {
         cursor: pointer;
     }
     
@@ -351,6 +367,7 @@
     }
     
     .container-sponsor .contain-icon {
+        max-width: 100%;
         height: 260px;
         /*background-image: linear-gradient( #ffea00, #ffe169);*/
         background-color: var(--main-bg-color);
@@ -379,13 +396,13 @@
     }
     
     .footer {
-        max-width: 100%;
+        width: 100%;
         height: auto;
         background-color: #1d293e;
     }
     
     .redes-content {
-        max-width: 100%;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -401,6 +418,7 @@
     
     .footer p {
         color: #f1f1f1;
+        font-size: 16px;
         font-family: 'Montserrat', sans-serif;
         padding-top: 20px;
     }
@@ -413,7 +431,8 @@
         font-size: 28px;
         color: #ced4da;
     }
-    .footer ul li a:hover{
+    
+    .footer ul li a:hover {
         color: #f8f9fa;
         cursor: pointer;
     }
@@ -422,11 +441,13 @@
         display: flex;
         justify-content: space-around;
     }
-    .dev-content p a{
+    
+    .dev-content p a {
         text-decoration: none;
         color: #f1f1f1;
     }
-    .dev-content p a:hover{
+    
+    .dev-content p a:hover {
         color: #f8f9fa;
         cursor: pointer;
     }

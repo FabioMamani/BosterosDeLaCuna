@@ -49,7 +49,7 @@ containText.classList.add('contain-text');
 containText.setAttribute('data-aos', 'fade-up')
 containText.innerHTML = `<h2>Primera división Masculino</h2>
 <p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
-    , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
+    , dejar todo por los colores.Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
     copas internacionales.
 </p>
 <button class= button-text type="button" >Seguir leyendo</button>`
@@ -61,9 +61,9 @@ const containText2 = document.createElement('div')
 containText2.classList.add('contain-text2');
 containText2.setAttribute('data-aos', 'fade-up')
 containText2.innerHTML = `<h2>Primera división Femenino</h2>
-<p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
-    , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
-    copas internacionales.
+<p>El plantel de primera división de futbol femenino del club Boca Juniors, es uno de los equipos favoritos y muy competitivo,
+a nivel local.No solo por su buen juego , sino también por sus individualidades , ganando la mayoria de los partidos 
+locales, y llevando al club a la alta competencia en torneos internacionales.
 </p>
 <button class= button-text type="button" >Seguir leyendo</button>`
 
@@ -74,9 +74,10 @@ const containText3 = document.createElement('div')
 containText3.classList.add('contain-text3');
 containText3.setAttribute('data-aos', 'fade-up')
 containText3.innerHTML = `<h2>Reserva</h2>
-<p>El plantel de primera división de un club mas que grande, donde los jugadores dejan todo por esta camiseta
-    , dejar todo por los colores...Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
-    copas internacionales.
+<p>El plantel de reserva del club en donde día a día , se van construyendo varias figuras y talentos.
+La reserva lleva una valla invicta en lo que va del campeonato, pero su mayor virtud es la de no relajarse ni darse por
+vencido nunca.
+
 </p>
 <button class= button-text type="button" >Seguir leyendo</button>`
 
@@ -90,8 +91,6 @@ containSecond.appendChild(containText3)
 
 const containCopas = document.querySelector('.contain-copas');
 const titularCopas = document.createElement('div')
-titularCopas.classList.add('titular-copas')
-titularCopas.innerHTML = `<a href="https://www.fontspace.com/category/brush"><img src="https://see.fontimg.com/api/renderfont4/K7wX7/eyJyIjoiZnMiLCJoIjo0OCwidyI6MTAwMCwiZnMiOjQ4LCJmZ2MiOiIjRUZGNjMwIiwiYmdjIjoiIzM1MzUyMyIsInQiOjF9/bnVlc3RyYXMgY29wYXM/better-faster-italic.png" alt="Brush fonts"></a>`;
 const copaImg = document.createElement('div')
 copaImg.classList.add('contain-img-copa')
 copaImg.setAttribute('data-aos', 'fade-up')
@@ -99,6 +98,7 @@ copaImg.innerHTML = `<img src="./assets/img/copas.png" alt="" ></img>`
 const buttonCopas = document.createElement('div')
 buttonCopas.classList.add('button-copas')
 buttonCopas.innerHTML = `<button type="button">Ver títulos</button>`
-containCopas.appendChild(titularCopas)
+
+/*containCopas.appendChild(titularCopas)*/
 containCopas.appendChild(copaImg)
 containCopas.appendChild(buttonCopas)
