@@ -33,7 +33,7 @@ containCarrusel.innerHTML = `
 </div>`;
 const buttonMain = document.createElement('div')
 buttonMain.classList.add('button-main');
-buttonMain.innerHTML = `<button>Ver mas</button>`
+buttonMain.innerHTML = `<button id="buttonHome">Ver mas</button>`
 
 //mainContain.appendChild(containTitular)
 mainContain.appendChild(containCarrusel)
@@ -52,7 +52,7 @@ containText.innerHTML = `<h2>Primera división Masculino</h2>
     , dejar todo por los colores.Nuestro equipo se entrena y se proyecta a ser siempre competitivo a las proximas
     copas internacionales.
 </p>
-<button class= button-text type="button" >Seguir leyendo</button>`
+<button id="btnActividad" class= button-text type="button" >Seguir leyendo</button>`
 
 const containCard2 = document.createElement('div')
 containCard2.classList.add('contain-card2');
@@ -65,7 +65,7 @@ containText2.innerHTML = `<h2>Primera división Femenino</h2>
 a nivel local.No solo por su buen juego , sino también por sus individualidades , ganando la mayoria de los partidos 
 locales, y llevando al club a la alta competencia en torneos internacionales.
 </p>
-<button class= button-text type="button" >Seguir leyendo</button>`
+<button id="btnActividadDos"class= button-text type="button" >Seguir leyendo</button>`
 
 const containCard3 = document.createElement('div')
 containCard3.classList.add('contain-card3');
@@ -79,7 +79,7 @@ La reserva lleva una valla invicta en lo que va del campeonato, pero su mayor vi
 vencido nunca.
 
 </p>
-<button class= button-text type="button" >Seguir leyendo</button>`
+<button id="btnActividadTres" class= button-text type="button" >Seguir leyendo</button>`
 
 
 containSecond.appendChild(containCard)
